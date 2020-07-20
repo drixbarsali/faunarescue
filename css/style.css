@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding:0px;
-    background-image: url(https://source.unsplash.com/1600x900/?spider,hedgehog,arara,tucano,réptil,cobra,lagarto,gecko,porquinho-da-india);
+    background-image: url(https://source.unsplash.com/1600x900/?hedgehog,arara,tucano,cobra,lagarto,gecko,rabbit);
     height:100vh;
     background-position: center;
     background-size: cover;
@@ -10,14 +10,21 @@ body{
 }
 
 .data{
+    display:flex;
+    flex-direction: column;
+    width:30vw
 }
 .dados{
     background-color: rgba(255,255,255,.4);
-    max-width:500px;
+    display:inline-block;
     padding:20px;
-    margin: 20px;;
+    margin: 20px;
 
 }
 .midias{
     font-size:30px;
+}
+
+a{
+    color:black
 }
