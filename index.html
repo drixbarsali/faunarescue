@@ -9,26 +9,59 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="data">
-     
-    <div class="dados">
-        <b><h3>Danilo Sato Martins</h3></b><br/>
-        Médico Veterinário<br/>
-        CRMV-SP 30.305<br/>
-        Pós graduado em Medicina de Animais Silvestres e Exóticos
+    <div class="container">
+        <div class="dataInt">
+          <div class="data">
+            <div class="dados" style="text-align: center;">
+              <img id="imageid" src="" alt="" style="width:200px;">
+        
+             
+          </div>
+            <div class="dados">
+        
+        
+                <b style="font-size:20px;">Danilo Sato Martins</b><br/><br/>
+                Médico Veterinário<br/>
+                CRMV-SP 30.305<br/>
+                Pós graduado em Medicina de Animais Silvestres e Exóticos
+            </div>
+            <div class="dados">
+                <b>
+                    Atendimento exclusivo de animais silvestres e exóticos
+                    Resgate e monitoramento de fauna em consultoria ambiental
+                </b>
+              </div>
+            <div class="dados midias" style="width:170px">
+                <a href="https://facebook.com/faunarescueconsult" target="_blank"><i class="fab fa-facebook"></i></a> 
+                <a href="https://isntagram.com/faunarescue.consul" target="_blank"><i class="fab fa-instagram"></i></a> 
+                <a href="https://wa.me/5513996639091" target="_blank"><i class="fab fa-whatsapp"></i></a> 
+                <a href="mailto:danilosato.vet@hotmail.com" target="_blank"><i class="fas fa-envelope-open-text"></i></a> 
+            </div>
+        </div>
+        <footer>
+          <p>danilosato.vet@hotmail.com | Agende também via Whatsapp   <a href="https://wa.me/5513996639091" target="_blank"> <i class="fab fa-whatsapp"></i></a>  <b>(13) 996639091</b></p>
+        </footer>
     </div>
-    <div class="dados">
-        <b>
-            Atendimento exclusivo de animais silvestres e exóticos
-            Resgate e monitoramento de fauna em consultoria ambiental
-        </b>
-      </div>
-    <div class="dados midias">
-        <a href="https://facebook.com/faunarescueconsult" target="_blank"><i class="fab fa-facebook"></i></a> 
-        <a href="https://isntagram.com/faunarescue.consul" target="_blank"><i class="fab fa-instagram"></i></a> 
-        <a href="https://wa.me/5513996639091" target="_blank"><i class="fab fa-whatsapp"></i></a> 
-        <a href="mailto:danilosato.vet@hotmail.com" target="_blank"><i class="fas fa-envelope-open-text"></i></a> 
-    </div>
+   
   </div>
+  <script>
+    let rand = Math.floor(Math.random()*5)
+
+    if(rand===0){
+      document.getElementById("imageid").src="img/logo1.png";
+    }
+    if(rand===1){
+      document.getElementById("imageid").src="img/logo2.png";
+    }
+    if(rand===2){
+      document.getElementById("imageid").src="img/logo3.png";
+    }
+    if(rand===3){
+      document.getElementById("imageid").src="img/logo4.png";
+    }
+    if(rand===4){
+      document.getElementById("imageid").src="img/logo5.png";
+    }
+  </script>
 </body>
 </html>

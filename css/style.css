@@ -2,8 +2,8 @@ body{
     margin:0px;
     padding:0px;
     background-image: url(https://source.unsplash.com/1600x900/?hedgehog,arara,tucano,cobra,lagarto,gecko,rabbit);
-    height:100vh;
-    background-position: center;
+    min-height:100vh;
+    background-position: top center;
     background-size: cover;
     background-repeat:no-repeat;
     font-family: 'Roboto', sans-serif;
@@ -15,10 +15,11 @@ body{
     width:30vw
 }
 .dados{
-    background-color: rgba(255,255,255,.4);
-    display:inline-block;
+    background-color: rgba(255,255,255,0.8);
+
     padding:20px;
-    margin: 20px;
+    margin: 10px 0px;
+
 
 }
 .midias{
@@ -27,4 +28,43 @@ body{
 
 a{
     color:black
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+    padding-top:50px;
+}
+.dataInt{
+    flex-grow: 1;
+}
+footer{
+    background-color:rgba(238,198,0,.7);
+    bottom: 0;
+    font-size:16px;
+    text-align: right;
+}
+
+p{
+    padding:20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .data{
+        display:flex;
+        flex-direction: column;
+        width:100vw
+    }
+
+    footer{
+
+     
+        bottom: 0;
+        width:100vw;
+        font-size:16px;
+        text-align: center;
+    
+    }
 }
