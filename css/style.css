@@ -16,14 +16,45 @@ body{
 }
 .dados{
     background-color: rgba(255,255,255,0.8);
-
+    font-family: 'Roboto', sans-serif;
     padding:20px;
     margin: 10px 0px;
 
 
 }
+.dadosmd{
+    background-color: rgba(255,255,255,0.8);
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    padding:10px;
+    margin: 10px 0px;
+
+
+}
+
+
+.dadoswa{
+
+    font-family: 'Roboto', sans-serif;
+    paddinG:10px;
+    margin: 10px 10px;
+}
+
+.dadoswa a{
+    font-family: 'Roboto', sans-serif;
+    paddinG:10px;
+    margin: 10px 10px;
+    background: #128c7e;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+    font-size:18px;
+}
+
+
+
 .midias{
-    font-size:30px;
+
 }
 
 a{
