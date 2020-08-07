@@ -12,7 +12,7 @@ body{
 .data{
     display:flex;
     flex-direction: column;
-    width:50%
+    width:30vw
 }
 .dados{
     background-color: rgba(255,255,255,0.8);
