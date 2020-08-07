@@ -12,7 +12,7 @@ body{
 .data{
     display:flex;
     flex-direction: column;
-    width:50vw
+    width:50%
 }
 .dados{
     background-color: rgba(255,255,255,0.8);
@@ -34,15 +34,16 @@ body{
 
 
 .dadoswa{
-
     font-family: 'Roboto', sans-serif;
-    paddinG:10px;
+    padding:10px;
     margin: 10px 10px;
+    min-width:90vw;
+
 }
 
 .dadoswa a{
     font-family: 'Roboto', sans-serif;
-    paddinG:10px;
+    padding:10px;
     margin: 10px 10px;
     background: #128c7e;
     color:white;
