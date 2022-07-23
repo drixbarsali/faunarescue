@@ -96,7 +96,10 @@ h2 {
 
 }
 
-.mobile-break { display: none; height: 20px;}
+.mobile-break {
+  display: none;
+  height: 20px;
+}
 
 @media only screen and (max-width: 600px) {
   .container {
@@ -113,7 +116,7 @@ h2 {
   }
 
   #imageid {
-    width: 100px;
+    width: 180px;
   }
 
   .footer {
@@ -121,12 +124,28 @@ h2 {
     text-align: center;
     justify-content: center;
   }
-  .mobile-break { display: block; }
+
+  .mobile-break {
+    display: block;
+  }
+
   .content {
     padding: 10px;
   }
-  h1{
+
+  h1 {
     font-size: 40px;
     margin-top: 20px;
   }
+
+  .logo {
+
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+
+  }
+
+  body {
+    overflow: auto;
+  }
+
 }
