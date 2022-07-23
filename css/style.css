@@ -113,6 +113,7 @@ h2 {
     justify-content: space-evenly;
     padding: 20px;
     border-radius: 8px 8px 0px 0px;
+    
   }
 
   #imageid {
@@ -146,6 +147,8 @@ h2 {
 
   body {
     overflow: auto;
+    justify-content: flex-start;
+    align-items: center;
   }
 
 }
