@@ -77,6 +77,8 @@ h2 {
   border: 0px;
   flex-grow: 1;
   margin-top: 50px;
+  text-decoration: none;
+
 }
 
 .footer a {
