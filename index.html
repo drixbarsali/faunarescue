@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fauna Rescue</title>
+    <script
+      src="https://kit.fontawesome.com/df7b0b79b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fauna Rescue</title>
-  <script src="https://kit.fontawesome.com/df7b0b79b6.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-  <div class="container">
-    <div class="leftContent">
-      <img id="imageid" src="" alt="" style="width:200px;">
-      <div class="textBlock">
-        <ul>
-          <li>
-            Atendimento exclusivo de animais silvestres e exóticos.
-          </li>
-          <li>
-            Resgate e monitoramento de fauna em consultoria ambiental.
-          </li>
-        </ul>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="logo">
+          <img id="imageid" src="img/logo2.png" alt=""  />
+        </div>
+        <div class="content">
+          <div class="dados">
+            <h1>Danilo Sato Martins</h1>
+            <h2>Médico Veterinário - CRMV-SP 30.305</h2>
+            <br />
+            Pós graduado em Medicina de Animais Silvestres e Exóticos
+          </div>
+          <div class="dados">
+            <ul>
+              <li>
+                <b>Atendimento exclusivo de animais silvestres e exóticos</b>
+              </li>
+              <li>
+                <b>Resgate e monitoramento de fauna em consultoria ambiental</b>
+              </li>
+            </ul>
+            <button class="wppButton">Agende sua consulta via Whastapp</button>
+          </div>
+        </div>
       </div>
-      <div class="textBlock">
-        Danilo Sato Martins</b><br /><br />
-        Médico Veterinário<br />
-        CRMV-SP 30.305<br />
-        Pós graduado em Medicina de Animais Silvestres e Exóticos
+      <div class="footer">
+        <div class="content">
+          danilosato.vet@hotmail.com  <span class="mobile-break"></span> <b>(13) 996639091</b> <span class="mobile-break"></span>
+          <a href="https://facebook.com/faunarescueconsult" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://isntagram.com/faunarescue.consul" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="mailto:danilosato.vet@hotmail.com" target="_blank"
+            ><i class="fas fa-envelope-open-text"></i
+          ></a>
+        </div>
       </div>
+    </div>
+
+    <!-- <div class="container">
+
       <div class="textBlock social">
         Nossas redes sociais:
         <a href="https://facebook.com/faunarescueconsult" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -55,35 +85,39 @@
   <div class="greenBg">
   </div>
   <div class="bgImage">
-  </div>
-  <script>
-    let rand = Math.floor(Math.random() * 5)
+  </div> -->
+    <script>
+      let rand = Math.floor(Math.random() * 5);
 
-    if (rand === 0) {
-      document.getElementById("imageid").src = "img/logo1.png";
-    }
-    if (rand === 1) {
-      document.getElementById("imageid").src = "img/logo2.png";
-    }
-    if (rand === 2) {
-      document.getElementById("imageid").src = "img/logo3.png";
-    }
-    if (rand === 3) {
-      document.getElementById("imageid").src = "img/logo4.png";
-    }
-    if (rand === 4) {
-      document.getElementById("imageid").src = "img/logo5.png";
-    }
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H201DHLY4J"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      if (rand === 0) {
+        document.getElementById("imageid").src = "img/logo1.png";
+      }
+      if (rand === 1) {
+        document.getElementById("imageid").src = "img/logo2.png";
+      }
+      if (rand === 2) {
+        document.getElementById("imageid").src = "img/logo3.png";
+      }
+      if (rand === 3) {
+        document.getElementById("imageid").src = "img/logo4.png";
+      }
+      if (rand === 4) {
+        document.getElementById("imageid").src = "img/logo5.png";
+      }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-H201DHLY4J"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-H201DHLY4J');
-  </script>
-</body>
-
+      gtag("config", "G-H201DHLY4J");
+    </script>
+  </body>
 </html>

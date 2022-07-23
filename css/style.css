@@ -1,185 +1,130 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://source.unsplash.com/1600x900/?wildlife);
+  background-color: #9fc131;
+  background-position: top top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.bgImage {
-    margin: 0px;
-    padding: 0px;
-    background-image: url(https://source.unsplash.com/1600x900/?hedgehog,arara,tucano,cobra,lagarto,gecko,rabbit,snake,serpente,lizzard,exoticpet);
-    min-height: 100vh;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: "Roboto", sans-serif;
-    z-index: 0;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-}
-
-.textBlock {
-    background-color: #c3d968;
-    padding: 20px;
-    margin-top: 20px;
-    font-family: "Roboto", sans-serif;
-    line-height: 20px;
-}
-
-.textBlock ul li {
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    line-height: 40px;
-}
-
-.data {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-}
-
-.greenBg {
-    background-color: #aabd5f;
-    opacity: 0.6;
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-}
-
-.social {
-    font-size: 16px;
-}
-
-.dados {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-family: "Roboto", sans-serif;
-    padding: 20px;
-    margin: 10px 0px;
-}
-
-.dadosmd {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-.dadoswa {
-    font-family: "Roboto", sans-serif;
-    padding: 10px;
-    margin: 10px 10px;
-    min-width: 90vw;
-}
-
-.dadoswa a {
-    font-family: "Roboto", sans-serif;
-    padding: 10px;
-    margin: 10px 10px;
-    background: #128c7e;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
-}
-
-a {
-    color: black;
+.wrapper {
+  filter: drop-shadow(5px 2px 10px rgba(0, 0, 0, 0.5));
 }
 
 .container {
-    display: flex;
-    position: absolute;
-    z-index: 2;
-
-    flex-direction: row;
-    overflow: auto;
-
-    width: 100%;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  background-position: top left;
+  background-size: cover;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-radius: 8px 8px 0px 0px;
 }
 
-.leftContent {
-    flex-grow: 1;
-    padding: 50px;
+h1 {
+  color: #9fc131;
+  font-size: 60px;
+  margin: 0px;
 }
 
-.rightContent {
-    flex-grow: 0;
-    padding: 50px;
-    width: 450px;
+h2 {
+  color: black;
+  font-size: 16px;
+  margin: 0px;
 }
 
-.dataInt {
-    flex-grow: 1;
+.dados {
+  font-size: 20px;
 }
 
-footer {
-    background-color: rgba(238, 198, 0, 0.7);
-    bottom: 0;
-    font-size: 16px;
-    text-align: right;
+.logo {
+  margin-left: 30px;
+  filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.5));
+
 }
 
-p {
-    padding: 20px;
+.footer {
+  text-align: right;
+  width: 100%;
+  background-color: #9fc131;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  font-size: 20px;
+  border-radius: 0px 0px 8px 8px;
 }
 
-.whatsapp {
-    text-align: center;
+.wppButton {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: #9fc131;
+  border: 0px;
+  flex-grow: 1;
+  margin-top: 50px;
 }
 
-.whatsapp a {
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
+.footer a {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
 }
 
-.whatsappLeft {
-    display: none;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
+.content {
+  padding: 20px;
 }
-.whatsappLeft a{
 
-    text-decoration: none;
-   
+#imageid {
+  width: 300px;
+
 }
+
+.mobile-break { display: none; height: 20px;}
+
 @media only screen and (max-width: 600px) {
-    .data {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-    }
+  .container {
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    background-position: top left;
+    background-size: cover;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 8px 8px 0px 0px;
+  }
 
-    footer {
-        bottom: 0;
-        width: 100vw;
-        font-size: 16px;
-        text-align: center;
-    }
+  #imageid {
+    width: 100px;
+  }
 
-    .leftContent {
-        flex-grow: 1;
-        padding: 10px;
-    }
-
-    .rightContent {
-        display: none;
-    }
-
-    .textBlock ul li {
-        font-size: 20px;
-        font-family: "Roboto", sans-serif;
-        font-weight: bold;
-        line-height: 30px;
-    }
-
-    .whatsappLeft {
-        display: block;
-    }
+  .footer {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .mobile-break { display: block; }
+  .content {
+    padding: 10px;
+  }
+  h1{
+    font-size: 40px;
+    margin-top: 20px;
+  }
 }
